@@ -3,13 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.1",
     "bootstrap": "^4.5.2",
+    "joi-browser": "^13.4.0",
+    "mdbreact": "^4.27.0",
+    "prop-types": "^15.6.2",
     "query-string": "^6.1.0",
     "react": "^16.4.1",
     "react-dom": "^16.13.1",
     "react-pdf": "^5.0.0",
+    "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-toastify": "^4.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

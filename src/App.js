@@ -5,6 +5,7 @@ import Home from "./components/home";
 import Contactme from "./components/contact_me";
 import Resume from "./components/resume";
 import NotFound from "./components/notFound";
+
 import "./App.css";
 
 
@@ -22,6 +23,7 @@ class App extends Component {
             <Route path="/" component={Home} />
             <Redirect to="/not-found" />
           </Switch>
+          
         </div>
       </div>
     );
